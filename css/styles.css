@@ -37,6 +37,7 @@ button:focus {
   background-color: #404bbf;
 }
 /* #endregion */
+
 /* #region header */
 .logo {
   color: #4d5ae5;
@@ -69,8 +70,9 @@ button:focus {
 }
 
 /* #endregion */
-/* #region section one */
-.section-one {
+
+/* sectiontitle */
+.section-title {
   background-color: #2e2f42;
 }
 .title {
@@ -81,9 +83,9 @@ button:focus {
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
-/* #endregion */
+/* endsectiontitle */
 
-/* #region features */
+/* features */
 .features-title {
   color: #2e2f42;
   font-size: 20px;
@@ -97,8 +99,9 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* #endregion */
-/* #region team */
+/* #endfeatures */
+
+/* team */
 .team {
   background-color: #f4f4fd;
 }
@@ -110,23 +113,24 @@ button:focus {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team-card-title {
+.team-item-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.team-card-text {
+.team-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.team-card {
+.team-item {
   background-color: #fff;
 }
-/* #endregion */
-/* #region portfolio */
+/* #endteam */
+
+/* portfolio */
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -135,20 +139,21 @@ button:focus {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.portfolio-card-title {
+.portfolio-item-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.portfolio-card-text {
+.portfolio-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* #endregion */
-/* #region footer */
+/* #endportfolio */
+
+/* footer */
 .footer {
   background-color: #2e2f42;
 }
@@ -171,4 +176,4 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* #endregion */
+/* endfooter */
